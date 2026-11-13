@@ -1,0 +1,17 @@
+{
+  "name": "yamaguchi_test",
+  "version": "1.0.0",
+  "description": "Адаптивная презентация Yamaguchi Hair Styler — тестовое задание",
+  "scripts": {
+    "start": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "keywords": [],
+  "author": "Ярослав Свешников",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}

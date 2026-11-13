@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#7f7875" />
+    <meta name="description" content="Yamaguchi Hair Styler: фен и стайлер 2 в 1, лёгкость и инновационный японский мотор." />
+    <title>Yamaguchi Hair Styler — фен и стайлер 2 в 1</title>
+    <link rel="icon" href="data:," />
+    <link rel="preload" href="/assets/euclid-circular-a-semibold.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main class="presentation">
+      <section class="slide slide--intro" id="design">
+        <div class="slide__card intro">
+          <picture class="intro__hero">
+            <source media="(max-width: 767px)" srcset="/assets/intro-mobile.webp" />
+            <img src="/assets/intro.webp" width="1326" height="1080" alt="Фен и стайлер Yamaguchi: гладкие волосы и объёмные локоны" fetchpriority="high" />
+          </picture>
+          <h1 class="intro__title" id="design-title">ФЕН и СТАЙЛЕР<br />в уникальном дизайне</h1>
+          <p class="pill intro__badge">2 в 1</p>
+          <figure class="intro__example intro__example--dryer">
+            <figcaption class="pill pill--dark">Фен</figcaption>
+            <img src="/assets/dryer.webp" width="243" height="431" alt="Сушка волос феном с насадкой-концентратором" />
+          </figure>
+          <figure class="intro__example intro__example--styler">
+            <figcaption class="pill">Стайлер</figcaption>
+            <img src="/assets/styler.webp" width="243" height="431" alt="Создание локонов с помощью стайлера" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="slide slide--light" id="lightness">
+        <div class="feature-label">
+          <span class="feature-label__icon icon icon--feather"></span>
+          <p>Лёгкость<br />и комфорт<br />в руке</p>
+        </div>
+        <div class="slide__card lightness">
+          <div class="lightness__glow"></div>
+          <picture class="lightness__model">
+            <source media="(max-width: 767px)" srcset="/assets/lightness-mobile.webp" />
+            <img src="/assets/lightness.webp" width="669" height="904" alt="Девушка держит лёгкий стайлер и чашку кофе" />
+          </picture>
+          <div class="lightness__portrait"><img src="/assets/lightness.webp" width="669" height="904" alt="" /></div>
+          <div class="seal lightness__seal">
+            <img src="/assets/seal-coffee.svg" width="180" height="180" alt="" />
+            <p>Не тяжелее<br />чашки кофе</p>
+          </div>
+          <h2 class="lightness__title" id="lightness-title">Супер<span class="desktop-hyphen">-<br /></span>лёгкий</h2>
+          <p class="lightness__description">Уменьшает усталость рук<br />при сушке волос, делая процедуру удобной и приятной даже после напряжённого рабочего дня.</p>
+          <p class="pill lightness__weight">500 г</p>
+        </div>
+      </section>
+
+      <section class="slide slide--motor" id="motor">
+        <div class="feature-label feature-label--motor">
+          <span class="feature-label__icon icon icon--motor"><img src="/assets/icon-motor-glyph.svg" width="76" height="76" alt="" /></span>
+          <p>Инновационный<br />японский мотор</p>
+        </div>
+        <div class="slide__card motor">
+          <picture class="motor__image">
+            <source media="(max-width: 767px)" srcset="/assets/motor-mobile.webp" />
+            <img src="/assets/motor.webp" width="1240" height="800" alt="Внутреннее устройство бесщёточного мотора BLDC" />
+          </picture>
+          <h2 class="motor__title" id="motor-title"><span>Для ценителей</span> <strong>комфорта <br class="mobile-break" />и качества</strong> <span>в уходе за волосами</span></h2>
+          <p class="motor__caption">Бесщеточный мотор BLDC</p>
+          <div class="seal motor__seal">
+            <img src="/assets/seal-power.svg" width="180" height="180" alt="" />
+            <p>Салонная<br />мощность</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <nav class="wheel" hidden>
+      <div class="wheel__rotor">
+        <a class="wheel__item" href="#design" aria-current="true" style="--item: 0">
+          <span class="wheel__content"><span class="icon icon--dryer"></span><span class="wheel__label">Фен-стайлер<br />2 в 1</span></span>
+        </a>
+        <a class="wheel__item" href="#lightness" style="--item: 1">
+          <span class="wheel__content"><span class="icon icon--feather"></span><span class="wheel__label">Суперлёгкий</span></span>
+        </a>
+        <a class="wheel__item" href="#motor" style="--item: 2">
+          <span class="wheel__content"><span class="icon icon--motor"><img src="/assets/icon-motor-glyph.svg" width="76" height="76" alt="" /></span><span class="wheel__label">Инновационный<br />японский мотор</span></span>
+        </a>
+      </div>
+    </nav>
+    <script type="module" src="/src/index.js"></script>
+  </body>
+</html>
